@@ -1,0 +1,6 @@
+curl --location --request POST '' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "method": "decoderawtransaction",
+    "params": [
+        "0x7ffcd00f9647c7d0b9ca2489f5bb8f7524984412705af6b89934302c4f17e99e"
